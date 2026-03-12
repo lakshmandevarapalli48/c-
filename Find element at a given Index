@@ -1,0 +1,8 @@
+class Solution {
+  public:
+    int findElementAtIndex(int key, vector<int> &arr) {
+        // Since we are given a 0-based index 'key', 
+        // we can access the element directly using arr[key].
+        return arr[key];
+    }
+};
