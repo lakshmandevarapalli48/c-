@@ -1,0 +1,10 @@
+
+
+class Solution {
+  public:
+    void helloWorld() {
+    // Print Hello World
+    cout << "Hello World";
+}
+
+};
