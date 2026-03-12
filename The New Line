@@ -1,0 +1,7 @@
+// Function to print each word in a new line
+void printNewLine() {
+    
+    // Using \n for each new line
+    cout << "Geeks" << "\n" << "for" << "\n" << "Geeks" << endl;
+    
+}
