@@ -1,0 +1,5 @@
+// code here
+int returnValueFunction(int n) {
+    // Return double the value of n
+    return n * 2;
+}
