@@ -1,0 +1,21 @@
+class Solution {
+public:
+    string isPrime(int n) {
+        // Step 1: 1 is not prime as per problem description
+        if (n <= 1) {
+            return "No";
+        }
+
+        // Step 2: Check for divisors from 2 up to sqrt(n)
+        // Using i * i <= n is a common way to avoid using sqrt() function
+        for (int i = 2; i <= sqrt(n); i++) {
+            if (n % i == 0) {
+                // If n is divisible by i, it's not a prime number
+                return "No";
+            }
+        }
+
+        // Step 3: If no divisors were found, it's a prime number
+        return "Yes";
+    }
+};
