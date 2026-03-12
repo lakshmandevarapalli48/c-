@@ -1,0 +1,7 @@
+class Solution {
+public:
+    long long addition(long long a, long long b) {
+        // Return the sum of a and b
+        return a + b;
+    }
+};
